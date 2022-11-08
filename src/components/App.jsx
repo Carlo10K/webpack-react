@@ -1,5 +1,6 @@
 import React from 'react';
 
-const App = () => <h1>Hello React!!!!</h1>
-
+function App() {
+return React.createElement('h1', null, 'Hello React!!!');
+}
 export default App;
